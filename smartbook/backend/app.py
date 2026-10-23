@@ -266,5 +266,6 @@ def server_error(e):
     return jsonify({"status": "error", "message": "Internal server error."}), 500
 
 if __name__ == "__main__":
-    print("🚀 Starting SmartBook Flask Backend on http://localhost:5000 ...")
+    print("[SmartBook] Starting Flask Backend on http://localhost:5000 ...")
     app.run(host="127.0.0.1", port=5000, debug=True)
+
